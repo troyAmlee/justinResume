@@ -1,141 +1,90 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!doctype html>
+
+<html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; CHARSET=UTF-8" />
-    <title>bomomo</title>
-    <link rel="stylesheet" href="default3.css" type="text/css" media="screen,projection,print" />
-    <!--[if !IE]><![IGNORE[--><![IGNORE[]]>
-        <script type="text/javascript" src="default-c.js?v=1_0"></script>
-    <!--<![endif]-->
-    <!--[if IE]>
-        <script type="text/javascript" src="default-flash.js"></script>
-    <![endif]-->
-    <meta name="description" content="The homepage of bomomo" />
+<meta charset="utf-8">
+<style type="text/css">
+body,td,th {
+	color: #2A00DB;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+}
+body {
+	background-image: url(images/bk.jpg);
+	background-repeat: repeat;
+}
+</style>
 </head>
-<body>
+<body background="images/bk.jpg" text="#2A00DB">
+	
+	<div id="container">
+		<div id="d_header">
+<div id="d_scene_selector"></div>
+			<div id="d_scene_btns">
+<div class="button left" onClick="CC.jumpScene(-1)"></a></span>
+	</div>
+  
+  <p>IT Technical Skills: Computer repair, Linux Administration, Hyper V, Windows Server 2012, DHCP Server Administration through Windows Server 2012, Windows Deployment Server(WDS) for Windows Server 2012</p>
+    <p>Computer troubleshooting, PXE booting, Building custom computers, Windows Administration</p>
+    <p>C#, C++, VB.NET, MySQL, MSSQL, Oracle</p>
 
-<div class="app">
-    <!-- google_ad_section_start(weight=ignore) -->
-
-    <!--[if !IE]><![IGNORE[--><![IGNORE[]]>
-    <canvas class="canvas" id="canvasBackground"></canvas>
-    <!--<![endif]-->
-
-    <!--[if IE]>
-    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
-        codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0"
-        width="760" height="520" id="bomomo" class="canvas" align="middle">
-    <param name="allowScriptAccess" value="sameDomain" />
-    <param name="allowFullScreen" value="false" />
-    <param name="movie" value="bomomo.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="bomomo.swf" quality="high" bgcolor="#ffffff" width="760" height="520" name="bomomo" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
-    </object>
-    <![endif]-->
-
-    <!--[if !IE]><![IGNORE[--><![IGNORE[]]>
-    <canvas class="canvas" id="canvasForeground"
-            onmousedown="handleMouseDown(event)" onmouseup="handleMouseUp(event)"
-            onmouseover="handleMouseIn(event)" onmouseout="handleMouseOut(event)"
-            onmousemove="handleMouseMoved(event)"
-        ></canvas>
-    <!--<![endif]-->
-
-    <div id="tools">
-        <span class="button" id="button1" onclick="buttonClicked(1)" onmouseover="buttonOver(1)" onmouseout="buttonOut(1)"><img src="image/button/1.png" alt="" /></span><span class="button" id="button2" onclick="buttonClicked(2)" onmouseover="buttonOver(2)" onmouseout="buttonOut(2)"><img src="image/button/2.png" alt="" /></span><span class="button" id="button3" onclick="buttonClicked(3)" onmouseover="buttonOver(3)" onmouseout="buttonOut(3)"><img src="image/button/3.png" alt="" /></span><span class="button" id="button4" onclick="buttonClicked(4)" onmouseover="buttonOver(4)" onmouseout="buttonOut(4)"><img src="image/button/4.png" alt="" /></span><span class="button" id="button5" onclick="buttonClicked(5)" onmouseover="buttonOver(5)" onmouseout="buttonOut(5)"><img src="image/button/5.png" alt="" /></span><span class="button" id="button6" onclick="buttonClicked(6)" onmouseover="buttonOver(6)" onmouseout="buttonOut(6)"><img src="image/button/6.png" alt="" /></span><span class="button" id="button7" onclick="buttonClicked(7)" onmouseover="buttonOver(7)" onmouseout="buttonOut(7)"><img src="image/button/7.png" alt="" /></span><span class="button" id="button8" onclick="buttonClicked(8)" onmouseover="buttonOver(8)" onmouseout="buttonOut(8)"><img src="image/button/8.png" alt="" /></span><span class="button" id="button9" onclick="buttonClicked(9)" onmouseover="buttonOver(9)" onmouseout="buttonOut(9)"><img src="image/button/9.png" alt="" /></span><span class="button" id="button10" onclick="buttonClicked(10)" onmouseover="buttonOver(10)" onmouseout="buttonOut(10)"><img src="image/button/10.png" alt="" /></span><span class="button" id="button11" onclick="buttonClicked(11)" onmouseover="buttonOver(11)" onmouseout="buttonOut(11)"><img src="image/button/11.png" alt="" /></span><span class="button" id="button12" onclick="buttonClicked(12)" onmouseover="buttonOver(12)" onmouseout="buttonOut(12)"><img src="image/button/12.png" alt="" /></span><span class="button" id="button13" onclick="buttonClicked(13)" onmouseover="buttonOver(13)" onmouseout="buttonOut(13)"><img src="image/button/13.png" alt="" /></span><span class="button" id="button14" onclick="buttonClicked(14)" onmouseover="buttonOver(14)" onmouseout="buttonOut(14)"><img src="image/button/14.png" alt="" /></span><span class="button" id="button15" onclick="buttonClicked(15)" onmouseover="buttonOver(15)" onmouseout="buttonOut(15)"><img src="image/button/15.png" alt="" /></span><span class="button" id="button16" onclick="buttonClicked(16)" onmouseover="buttonOver(16)" onmouseout="buttonOut(16)"><img src="image/button/16.png" alt="" /></span><span class="button" id="button17" onclick="buttonClicked(17)" onmouseover="buttonOver(17)" onmouseout="buttonOut(17)"><img src="image/button/17.png" alt="" /></span><span class="button" id="button18" onclick="buttonClicked(18)" onmouseover="buttonOver(18)" onmouseout="buttonOut(18)"><img src="image/button/18.png" alt="" /></span><span class="button" id="button19" onclick="buttonClicked(19)" onmouseover="buttonOver(19)" onmouseout="buttonOut(19)"><img src="image/button/19.png" alt="" /></span><span class="button" id="button20" onclick="buttonClicked(20)" onmouseover="buttonOver(20)" onmouseout="buttonOut(20)"><img src="image/button/20.png" alt="" /></span>        <div id="toolsSeparator">&nbsp;</div>
-        <a href="javascript:saveCanvas()" class="toolbarButton" id="toolbarButtonSave" title=""><img src="image/save.png" alt="" /></a>
-        <a href="javascript:newCanvas()" class="toolbarButton" id="toolbarButtonNew" title="New"><img src="image/new.png" alt="New" /></a>
-        <!--[if !IE]><![IGNORE[--><![IGNORE[]]>
-        <a href="javascript:showMenu()" onmouseover="showMenuHover()" onmouseout="closeMenuDelay()"
-                class="toolbarButton" id="toolbarButtonMenu"><img src="image/menu.png" alt="&gt;" /></a>
-
-        <div id="menu" onmouseover="overMenu()" onmouseout="closeMenuDelay()">
-            <a href="javascript:saveCanvas()" onmouseover="overMenu()" onmouseout="closeMenuDelay()" class="saveMenu">save normal</a>
-            <a href="javascript:saveCanvasHi()" onmouseover="overMenu()" onmouseout="closeMenuDelay()" class="saveMenu">
-                save high quality<span class="footnote">&nbsp; (rename to *.png)</span></a>
-            <a href="javascript:showAbout()" onmouseover="overMenu()" onmouseout="closeMenuDelay()">about...</a>
-        </div>
-        <!--<![endif]-->
-
-    </div>
-
-    <!-- google_ad_section_end -->
-
-    <div id="ad" style="left: 0; width: 784px; text-align: center; font-size: 90%">
-
-    <div style="width: 470px; float: left">
-        <script type="text/javascript"><!--
-    google_ad_client = "pub-2032116925414797";
-    google_alternate_ad_url = "http://bomomo.com/alternate-ad.html";
-    google_ad_width = 468;
-    google_ad_height = 60;
-    google_ad_format = "468x60_as";
-    google_ad_type = "text_image";
-    google_ad_channel ="";
-    google_color_border = "CCCCCC";
-    google_color_bg = "CCCCCC";
-    google_color_link = "455ECF";
-    google_color_url = "444444";
-    google_color_text = "666666";
-    //--></script>
-    <script type="text/javascript"
-      src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-    </script>
-        </div>
-
-    <!-- <div id="funmailWrapper" style="width: 296px; float: right">&nbsp;</div>
-    <script type="text/javascript" src="http://www.outer-court.com/funmail/include.js"></script>
-    -->
-
-    <div id="funmailWrapper" style="width: 246px; float: right">
-
-    <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fbomomo.com&amp;send=false&amp;layout=standard&amp;width=246&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font&amp;height=40" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:246px; height:40px;" allowTransparency="true"></iframe>
-
-    <div style="font-size: 90%">Elsewhere: <a href="http://manyland.com" style="color: #455ECF; font-weight: bold">Manyland: Run, Draw, Chat!</a></div>
-    </div>
-
-    </div>
-
-    <div id="about">
-        <div class="closeAbout" onclick="hideAbout()">x</div>
-        <p>
-        <!-- google_ad_section_start -->bomomo<!-- google_ad_section_end -->
-
-        <!-- google_ad_section_start(weight=ignore) -->
-        created by Philipp Lenssen 2008.
-        
-        Internet Explorer version by Nikolai Kordulla. 
-        Feel free to share any image you create in any way you like... it's yours!
-        We may also save and republish a copy of images you save.
-        </p>
-        <p><em>Feedback? Please email <a href="mailto:info@bomomo.com?subject=bomomo">info@bomomo.com</a></em></p>
-        <p>Other sites that may be of interest:
-        <!-- google_ad_section_end -->
-
-        <!-- google_ad_section_start -->
-        <a href="http://www.gamesforthebrain.com">Games for the Brain</a> | 
-        <a href="http://www.drawball.com">Drawball multi-user drawings</a> |
-        <a href="http://www.flickr.com/search/?q=bomomo&amp;s=rec">gallery of bomomo drawings</a> |
-        <a href="http://www.sketchswap.com">Sketch Swap</a>
-        <!-- google_ad_section_end -->.
-        <p><a href="javascript:hideAbout()">&gt;&gt; close</a></p>
-    </div>
-
-</div>
-
-<!-- <div id="debug">&nbsp;</div> <div id="debug2">&nbsp;</div> -->
-
-<form action="save.php5" method="post" id="mainForm"><div>
-    <input type="hidden" name="canvasData" id="canvasData" value="" />
-</div></form>
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-var pageTracker = _gat._getTracker("UA-60595-32");
-pageTracker._initData();
-pageTracker._trackPageview();
-</script>
-
+	<!--[if lte IE 8]>
+		<style type="text/css">
+			body { width: 100%; overflow: auto; }
+			#d_footer { display: none; }
+			h1 { color: #aaa; }
+		</style>
+		
+	    <script type="text/javascript" 
+	     src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+		
+		<div id="bad_ie" style="margin:50px; padding:50px; border:1px solid #888;"><center>
+			<h1>So sorry!</h1>
+			<h2>The color cycling canvas engine isn't compatible with Microsoft Internet Explorer versions 6, 7 or 8...</h2>
+			<h3>Unless of course you have the Chrome Frame extension, in which case it works perfectly.</h3>
+			<h3>Chrome Frame is a free extension made by Google, which brings open web technologies to Internet Explorer, and installs seamlessly without restarting the browser.</h3>
+			<br/><br/>
+			<form>
+				<input type="button" value="Install Google Chrome Frame..." onClick="$('bad_ie').hide();CFInstall.check({mode:'inline'});"/>
+			</form>
+		</center></div>
+	  <![endif]-->
+		
+	<script language="JavaScript">
+		if (document.addEventListener) {
+			// Good browsers
+			document.addEventListener( "DOMContentLoaded", function() {
+				document.removeEventListener( "DOMContentLoaded", arguments.callee, false );
+				CC.init();
+			}, false );
+			// Just in case
+			window.addEventListener( "load", function() {
+				window.removeEventListener( "load", arguments.callee, false );
+				CC.init();
+			}, false );
+			
+			window.addEventListener( "resize", function() {
+				CC.handleResize();
+			}, false );
+		}
+		else if (window.attachEvent) {
+			// Bad browsers have to wait
+			/* window.attachEvent("onload", function() {
+				setTimeout( function() { CC.init(); }, 1000 );
+			});
+			
+			window.attachEvent("onresize", function() {
+				CC.handleResize();
+			}); */
+			
+			// chrome frame
+			// CFInstall.check({ mode: "overlay" });
+		}
+	</script>
+	
+	<script type="text/javascript"> var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-5875241-1']);_gaq.push(['_trackPageview']); (function() {var ga = document.createElement('script');ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';ga.setAttribute('async', 'true');document.documentElement.firstChild.appendChild(ga);})(); </script>
+	
 </body>
 </html>
