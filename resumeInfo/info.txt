@@ -1,0 +1,68 @@
+       Justin. M. Orrick	
+141 Mustian Trail							(254) 299-7572
+China Spring, TX							orrickjustin@gmail.com      
+
+Summary of Qualifications
+•	Graduate of TSTC with an AAS in Computer Science Technology-Client Server
+•	Debugging Applications, Fluent in C#, VB, C++, ASP.NET, Oracle PL/SQL, SQL
+•	Certified in Customer Service and TestOut PC Pro
+
+Education
+Texas State Technical College-Waco, TX
+Associate of Applied Science-Computer Maintenance Technology			08/2018
+Associate of Applied Science-Computer Science Technology-Client Server Specialist 	08/2014
+
+Technical Skills
+ 
+·Debugging, Programming in C#
+·VB, C++, ASP.NET, Java
+·Oracle PL/SQL, SQL, T-SQL
+·C++
+·Oracle PL/SQL
+·VB
+·Java
+·Windows Programming
+·Implementation Database Microsoft Server
+·C#
+·Systems Analysis & Design
+·ASP.NET Programming
+·Developed in Visual Studio, Microsoft SQL Server, Oracle SQL Developer
+·Systems Analysis & Design, Data flow Diagrams, SDLC
+ 
+
+Relevant Experience
+TeamGame										Spring 2016
+·Three Dimensional TickTackToe Game made in C# with Computer AI
+·Offers Simple GUI design for Human, Easy, and Medium Computer Players
+
+Whitelist										Fall 2016
+·File Utility Application made in C# with Iteration File Handling
+·Offers White-list specific files, Delete non-White-list files, White-list Management
+
+CJM Solutions										Fall 2012
+·Enterprise application made in C# with a Microsoft SQL Server database
+·Offers Insurance, Finances, Product Sales, Employee Work Area, Human Resources
+
+JMO Solutions										Summer 2014
+·Video Game Store application made in C# with a Microsoft SQL Server database
+·Offers Product Sales, Manager Reports, Order Status of Sales, Superior Performance
+
+
+
+
+
+References
+Rodney G. Ortigo
+MBA Computer Science Technology, Associate Professor/Department Chair
+254-867-3239 | Fax: 254-867-3243 | 800-792-8784
+rodney.ortigo@tstc.edu | gaming.tstc.edu
+
+Joshua W. Thompson
+BS Computer Science Technology
+1-270-836-8563 | Fax: No Fax
+kakujitsu.design.works@gmail.com 
+
+Brian Williams
+MBA Computer Science Technology, Free Lancing Co-op Team Partner
+1-757-358-2001 | Fax: No Fax
+bwilliams113@gmail.com
