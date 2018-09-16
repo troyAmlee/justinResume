@@ -80,8 +80,10 @@ html {
     flex-direction: row;
     align-content: center;
     justify-content: space-between;
-    background-image: url("http://yiftachphotography.com/wp-content/uploads/2016/01/5-banner-tan-pattern.png")
-
+    background-image: url("http://yiftachphotography.com/wp-content/uploads/2016/01/5-banner-tan-pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
 }
 
@@ -99,6 +101,19 @@ html {
     align-self: center;
     justify-content: space-between;
     font-size: 1.4rem;
+}
+
+.grey-wrapper {
+    display: flex;
+    flex-direction: column;
+    
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.grey-wrapper .grey-wrapper-wrapper {
+  background-color: rgba(255, 245, 167, 0.143);  
 }
 
 .sumQual {
@@ -283,6 +298,7 @@ html {
     width: 900px;
     margin: 0px auto;
     margin-top: 45px;
+    margin-bottom: 13.5px;
     flex-direction: column;
     /* align-content: center;
     justify-content: center; */
@@ -386,6 +402,7 @@ padding-left: 13.3px;
     border: 0.5px solid rgb(108, 0, 0);
     background-color: rgb(25, 118, 176);
     box-shadow: 2px 0px 1.5px rgb(0, 0, 0);
+    
 } 
 
 .references {
@@ -393,13 +410,15 @@ padding-left: 13.3px;
     height: 400px;
     width: 900px;
     margin: 0px auto;
-    margin-top: 13.5px;
     flex-direction: column;
     align-content: flex-start;
     justify-content: center;
     flex-wrap: nowrap;
     padding-bottom: 10px;
-    background-image: url("http://yiftachphotography.com/wp-content/uploads/2016/01/5-banner-tan-pattern.png")
+    background-image: url("http://yiftachphotography.com/wp-content/uploads/2016/01/5-banner-tan-pattern.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .references h2 {
